@@ -1,0 +1,55 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(181, 213, 233);
+}
+
+#loginusuario{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    border-color: black;
+    border: 25px;
+    display:flex;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.h1 {
+    color: #252431;
+    font-size: 35px;
+    margin-bottom: 45px; 
+}
+
+.button{
+    width: 14%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.firma{
+
+    width: 99%;
+    height: 59%;
+    /* border: 3px solid rgb(142, 198, 218); */
+
+}
+
+.imagenFirma{
+
+    width: 60%;
+    height: 99%;
+    float:inline-start;
+    text-align: center;
+    /* background-color: rgb(157, 234, 116); */
+
+}
+
+.imagenFirma img{
+
+    width: 100px;
+    height: 100px;
+   
+    border: 3px solid black;
+    border-radius: 100%;
+    margin-top: 30%;
+}

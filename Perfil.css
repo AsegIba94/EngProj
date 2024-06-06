@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 1000px;
+    margin-right: 70px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #000;
+}
+
+.profile-info h2 {
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin-bottom: 20px;
+}
+
+.profile-info form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info form label {
+    margin-bottom: 5px;
+}
+
+.profile-info form input {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.profile-info form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.profile-info form button:hover {
+    background-color: #004d40;
+}
+
+.resources-section, .comments-section {
+    margin-bottom: 20px;
+}
+
+.resources-section h2, .comments-section h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-button, .delete-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.edit-button {
+    background-color: #0288d1;
+    color: #fff;
+}
+
+.edit-button:hover {
+    background-color: #01579b;
+}
+
+.delete-button {
+    background-color: #d32f2f;
+    color: #fff;
+}
+
+.delete-button:hover {
+    background-color: #b71c1c;
+}
+
+@media (max-width: 768px) {
+    .profile-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-pic {
+        margin-bottom: 20px;
+    }
+
+    .profile-info {
+        width: 100%;
+    }
+
+    .container {
+        width: 95%;
+    }
+}
+

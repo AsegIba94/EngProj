@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Usuario</title>
+    <link rel="stylesheet" href="Perfil.css">
+    <script src="Perfil.js"></script>
+</head>
+<body>
+
+
+    <header class="header">
+        <h1>Perfil de Usuario</h1>
+    </header>
+    <div class="container">
+        <div class="profile-section">
+            <div class="profile-pic">
+                <img src="fotos/woman-591576_1280.jpg" alt="Foto de perfil" id="profileImage">
+                <input type="file" id="fileInput" style="display: none;">
+                <button id="uploadButton">Editar Foto de Perfil</button>
+            </div>
+            <div class="profile-info">
+                <h2>UsuarioX</h2>
+                <p>usuariox@gmail.com</p>
+                <form action="UsuarioServlet" method="post">
+                    <input type="hidden" name="action" value="cambiarContrasena">
+                    <label for="newPassword">Nueva Contraseña:</label>
+                    <input type="password" id="newPassword" name="newPassword" required>
+                    <button type="submit">Cambiar Contraseña</button>
+                </form>
+            </div>
+        </div>
+        <div class="resources-section">
+            <h2>Recursos que te han gustado</h2>
+            <ul id="likedResourcesList">
+                <!-- Aquí se añadirán dinámicamente los recursos -->
+                <li>
+                    Recurso 1
+                    <button class="edit-button">Editar</button>
+                    <button class="delete-button">Eliminar</button>
+                </li>
+                <li>
+                    Recurso 2
+                    <button class="edit-button">Editar</button>
+                    <button class="delete-button">Eliminar</button>
+                </li>
+            </ul>
+        </div>
+        <div class="comments-section">
+            <h2>Comentarios</h2>
+            <ul id="commentsList">
+                <!-- Aquí se añadirán dinámicamente los comentarios -->
+                <li>Recurso útil y dinámico</li>
+            </ul>
+        </div>
+    </div>
+    
+
+
+</body>
+</html>

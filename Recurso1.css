@@ -1,0 +1,120 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#contenedor{
+    width: 80%;
+    height: 90vh;
+    /*background-color: aquamarine;*/
+    margin: 0 auto;
+}
+
+#seccionSuperior{
+    height: 49%;
+    /*background-color: rosybrown;*/
+
+}
+
+#seccionInferior{
+    margin-top: 20px;
+    height: 49%;
+    /*background-color: olivedrab;*/
+    
+}
+
+.cajaIzquierda{
+    width: 49%;
+    height: 100%;
+    border: 3px solid black;
+    float: left;
+}
+
+.cajaDerecha{
+    width: 49%;
+    height: 100%;
+    border: 3px solid black;
+    float: right;
+}
+
+.cajaImagen{
+
+    width: 39%;
+    height: 100%;
+    /*border: 3px solid yellowgreen;*/
+    float: left;
+    text-align: center;
+}
+
+.cajaImagen img{
+    width: 200px;
+    height: 200px;
+    margin-top: 30%;
+}
+
+.cajaTexto{
+
+    width: 59%;
+    height: 100%;
+    /*border: 3px solid burlywood;*/
+    float: right;
+}
+
+.texto{
+    width: 99%;
+    height: 59%;
+    /*border: 3px solid brown;*/
+}
+
+.texto h3{
+    margin: 30px 0 0 30px;
+}
+
+.texto p{
+    margin: 10px 0 0 30px;
+}
+
+.firma{
+    width: 99%;
+    height: 39%;
+}
+
+.imagenFirma{
+    width: 20%;
+    height: 99%;
+    float: left;
+    text-align: center;
+}
+
+.imagenFirma img{
+    width: 50px;
+    height: 50px;
+    margin-top: 50%;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+.nombreFirma{
+    width: 60%;
+    height: 99%;
+    float: left;
+}
+
+.nombreRock{
+    margin: 20% 0 0 5%;
+}
+
+
+
+.iconoFirma{
+    width: 20%;
+    height: 99%;
+    float: left;
+    text-align: center;
+}
+
+.iconoFirma img{
+    width: 50px;
+    height: 50px;
+    margin-top: 50%;
+}
